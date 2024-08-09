@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+    background-image: url("https://www.shutterstock.com/image-photo/question-mark-on-blue-background-260nw-1595492578.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  h1{
+    font-size: 80px;
+    color: peru;
+    
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  .question-count {
+    margin-bottom: 10px;
+    font-size: 34px;
+    color: chocolate;
+  }
+  
+  .question-text {
+    font-size: 44px;
+    color: bisque;
+  }
+  
+  .answer-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 26px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff004c96;
+    color: white;
+    
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .score-section {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(20, 212, 116);
+   
+  }
